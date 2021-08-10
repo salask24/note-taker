@@ -1,7 +1,12 @@
 [
-    {
-        "title":"Test Title",
-        "text":"Test text",
-        "id": "test_id"
-    }
+  {
+    "title": "testing title",
+    "text": "hello",
+    "id": "5yujn3mcks5e4wmi"
+  },
+  {
+    "title": "adding note function",
+    "text": "this is me adding a new note",
+    "id": "5yujn3mcks5e5f5b"
+  }
 ]

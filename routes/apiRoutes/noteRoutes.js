@@ -1,6 +1,6 @@
 const uniqid = require('uniqid');
 const router = require('express').Router();
-const { loadNotes, deleteNoteById, saveNewNote, validateNote, loadNotes } = require("../../lib/notes");
+const { loadNotes, deleteNoteById, saveNewNote, validateNote } = require("../../lib/notes");
 
 router.get('/notes', (req, res) => {
     const notes = loadNotes();
@@ -21,6 +21,7 @@ router.post('/notes', (req, res) => {
     }
 });
 
+//BONUS DELETE NOTES 
 router.delete('/notes/:id', (req, res) => {
     const notes = loadNotes();
     if (req.params.id) {
@@ -30,5 +31,5 @@ router.delete('/notes/:id', (req, res) => {
         res.sendStatus(404);
     }
 })
-
+//END BONUS DELETE NOTES
 module.exports = router; 
