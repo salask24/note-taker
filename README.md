@@ -17,3 +17,6 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 # Questions
 If you have any questions, feel free to reach out on Github @salask24 or email: salask.0104@gmail.com
+
+# Screenshot
+![screenshot](public/assets/images/note-taker-pic.png)
