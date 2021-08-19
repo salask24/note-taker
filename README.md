@@ -2,6 +2,10 @@
 
 # Description
 
+A node & express app to keep track of notes with the ability to update and delete!
+
+Heroku app: https://note-11-taker.herokuapp.com/notes
+
 # User Story
 AS A small business owner
 I WANT to be able to write and save notes
